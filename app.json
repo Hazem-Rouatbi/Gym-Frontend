@@ -1,0 +1,52 @@
+{
+    "expo": {
+        "name": "gym-plus",
+        "slug": "gym-plus",
+        "scheme": "gym-plus",
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "icon": "./assets/icon.png",
+        "userInterfaceStyle": "light",
+        "splash": {
+            "image": "./assets/splashScreen.jpg",
+            "resizeMode": "cover",
+            "backgroundColor": "#ffffff"
+        },
+        "googleServicesFile": "./gym-plus-17c59-firebase-adminsdk-h1she-0c7575ada8.json",
+        "assetBundlePatterns": ["**/*"],
+        "ios": {
+            "supportsTablet": true,
+            "bundleIdentifier": "com.hazemrouatbi.gymplus"
+        },
+        "android": {
+            "adaptiveIcon": {
+                "foregroundImage": "./assets/adaptive-icon.png",
+                "backgroundColor": "#ffffff"
+            },
+            "package": "com.hazemrouatbi.gymplus"
+        },
+
+        "web": {
+            "favicon": "./assets/favicon.png"
+        },
+        "extra": {
+            "eas": {
+                "projectId": "38e866ed-3498-4ef7-8075-91a3ce309fd6"
+            }
+        },
+        "owner": "hazemrouatbi",
+        "plugins": [
+            "expo-router",
+            "expo-secure-store",
+            [
+                "expo-font",
+                {
+                    "fonts": [
+                        "./assets/fonts/Comfortaa.ttf",
+                        "./assets/fonts/Pacifico-Regular.ttf"
+                    ]
+                }
+            ]
+        ]
+    }
+}
